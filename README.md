@@ -6,7 +6,7 @@ A bunch of test scripts using Python IDMEF libraries
 
 It is highly recommended to use a Python virtualenv.
 
-If you don't have Python virtualenv installed:a
+If you don't have Python virtualenv installed:
 
 ```
 apt install python3-virtualenv
