@@ -36,7 +36,7 @@ mkdir SECEF
 ( cd SECEF/python-idmefv2.git; python setup.py install )
 ( cd SECEF/python-idmefv2-transport.git; python setup.py install )
 
-# and add missing link
+# and add missing link (adapt the directory according to your Python version)
 ( cd ~/virtualenv/idmef/lib/python3.8/site-packages/idmefv2-0.0.0-py3.8.egg/idmefv2/schemas ; ln -s ~/WHEREEVERYOUWANT/SECEF/idmefv2-definition/IDMEFv2.schema )
 ```
 
