@@ -1,7 +1,6 @@
 from datetime import datetime
 from idmefv2 import Message
 import uuid
-import sys
 
 def now():
     return datetime.now().isoformat('T')

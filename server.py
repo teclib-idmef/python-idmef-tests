@@ -1,8 +1,7 @@
-from queue import Queue, Empty
+from queue import Queue
 from idmefv2_transport import get_transport
 import logging
 import threading
-import time
 
 class ServerThread(threading.Thread):
     def __init__(self, url, queue, condition):
